@@ -11,7 +11,7 @@ grep regex $filename
 grep -c "#" regex_practice.txt
 grep -c "@" regex_practice.txt
 grep -o "303" regex_practice.txt
-grep "geocities.com" >> email_results.txt
+grep "geocities.com" regex_practice.txt >> email_results.txt
 
 
 #Make sure to document how you are solving each problem!
